@@ -1,0 +1,631 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Abril Fatface', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/072c0274-0200-4ecb-b80d-5f5b2e839e56.jfif");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    padding: 3% 8%;
+    color: white;
+    font-size: 40px;
+    font-family: "Abril Fatface", times, serif;
+    font-weight: bolder;
+}
+
+header h1 {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    font-family: "abril Fatface", times, serif;
+    color: #fff;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+header p {
+
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 30px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    text-align: center;
+}
+
+span a {
+    color: #e4edff;
+}
+
+span a:hover {
+    color: white;
+}
+
+header .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header .btn {
+    text-align: center;
+    padding: 20px 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    border-width: 2px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .2em;
+}
+
+header .btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.image-wrapper {
+    flex: 1 1 300px;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    flex: 1 1 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: "abril Fatface", times, serif;
+    letter-spacing: 0.1rem;
+    padding-left: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    padding-left: 20px;
+}
+
+.video-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #65c0ba;
+}
+
+.video-link:hover {
+    color: #3f9a94;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    padding: 50px 20px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-item p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px;
+}
+
+.heading h2 {
+    font-size: 2rem;
+}
+
+.heading p {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    width: 50%;
+    color: #6c757d;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+.grid-item p {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(170deg, rgba(255, 255, 255, 1) 70%, rgba(204, 234, 232, 0) 50%, rgb(101, 192, 186, 1) 0%);
+
+
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container3 h2 {
+    font-size: 4rem;
+
+}
+
+.container3 p {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    padding: 0 10%;
+    margin-bottom: 50px;
+}
+
+.imgClass {
+    width: 50%;
+    height: auto;
+}
+
+.imgClass img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section4 {
+    height: 100vh;
+    background-color: #65c0ba;
+}
+
+
+@media (max-width: 768px) {
+    header nav a {
+        font-size: 30px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header p {
+        font-size: 20px;
+    }
+
+    header .btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .section2 .heading h2 {
+        font-size: 1.5rem;
+    }
+
+    .section2 .heading p {
+        font-size: 1.25rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .grid-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .grid-item p {
+        font-size: 16px;
+    }
+
+    .container3 h2 {
+        font-size: 2rem;
+    }
+
+    .container3 p {
+        font-size: 16px;
+    }
+}
+
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container4 h2 {
+    font-size: 3rem;
+    font-family: "Abril Fatface", times, serif;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.container4 p {
+    font-size: 1.25rem;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    max-width: 80%;
+
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.post {
+    background-color: #fff;
+    margin: 1%;
+    width: calc(30% - 4%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 80vh;
+
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 0%;
+}
+
+.post p {
+    margin: 10px 0 5px;
+    color: #666;
+    padding: 1%;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 18px;
+    padding: 3% 3%;
+
+}
+
+.post h3 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    padding: 3%;
+}
+
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+}
+
+.head5 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    line-height: 1.5;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-style: italic;
+
+}
+
+.testimonial h3 {
+    font-size: 15px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    color: #333;
+}
+
+.head6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head6 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.head6 p {
+    display: flex;
+    font-size: 1.25rem;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    max-width: 40%;
+
+}
+
+.section6 {
+    display: flex;
+}
+
+.container5 {
+    display: flex;
+    width: 80%;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: calc(20% 4%);
+    padding: 10px;
+    margin: 10px;
+}
+
+.cards img {
+    display: flex;
+    width: 100%;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards h3 {
+    display: flex;
+    align-items: start;
+}
+
+.cards p {
+    display: flex;
+    color: #65c0ba;
+}
+
+/* styles.css */
+
+
+footer {
+    width: 100%;
+    background-color: #222;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #bbb;
+}
+
+.footer-column ul li {
+    margin: 10px 0;
+}
+
+.footer-column ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+.footer-column p {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #bbb;
+}
+
+.footer-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-column button {
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-column button:hover {
+    background-color: #333;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #444;
+    flex-direction: column;
+}
+
+.footer-bottom p {
+
+    font-size: 14px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #bbb;
+}
+
+
+.footer-bottom .social-icons {
+    display: flex;
+}
+
+.footer-bottom .social-icons a {
+    margin: 0 5px;
+}
+
+.footer-bottom .social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-bottom span {
+    color: #8d8d8d;
+}
